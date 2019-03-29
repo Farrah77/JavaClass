@@ -18,13 +18,13 @@ public class FinidingAverageRowTwoDArray {
 				};
 		
         
-		 int total=0;
+		 double sum=0;  // it can be decimal value
 	        
 	        for (int i=0; i<rating.length; i++) {
-	            total+= (rating[1][i]);
+	            sum+= (rating[1][i]);
 	        }
 	        
-	        int average=total/rating.length;
+	       double average=sum/rating.length;
 	        
 	        System.out.println("The average is "+average);
 		}
