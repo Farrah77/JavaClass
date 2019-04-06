@@ -1,4 +1,4 @@
-package com.class17;
+package com.class17_2;
 
 import java.util.Scanner;
 
