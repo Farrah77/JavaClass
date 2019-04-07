@@ -41,7 +41,7 @@ public class Dog {
 		dog3.bringStick();
 	}
 void play() {
-	System.out.println("Your " +breed+ " can play");
+	System.out.println(breed+ " can play");
 }
 void nap() {
 	System.out.println("Your "+breed+" loves to nap");
