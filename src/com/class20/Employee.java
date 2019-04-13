@@ -34,7 +34,7 @@ Print out the eID , salary and  CEO for each of the objects
 	}
  void printEmployee() {
 	 
-System.out.println("Employee id is "+eID+"with salary "+salary+" and his CEO is "+ceo);
+System.out.println("Employee id is "+eID+" with salary "+salary+" and his CEO is "+ceo);
 
  }
 }
