@@ -1,22 +1,9 @@
 package com.class22;
 
-public class MainOopsConcept {
+public class Polymorphism {
 	
-/* JAVA OOPS 
- * There 4 main  
- * 1. Inheritance
- * 2. Polymorphism
- * 3. Encapsulation
- * 4. Abstraction
- * 
- * Inheritance 
- * Parent Class/Super Class/Base Class
- * Child Class/Sub Class/Derived Class
- * Multiple inheritance s not available through the classes( 2 classes cannot give 1 subclass)
- * Private members don't participate 
- * Subclass can extend only 1 Super class
- * 
- * 2. Polymorphism - ability of object to take (have) many forms/behaviors
+	/* 
+	 * 2. Polymorphism - ability of object to take (have) many forms/behaviors
  * I as an object have different types of behaviors 
  * It is about behaviors not variables. 
  * 
@@ -30,6 +17,7 @@ public class MainOopsConcept {
  * we can overload the METHOD and CONSTRUCTOR
  * 
  *  Method overloading can be achieved in 2 ways: (same method used many times)
+ *  
  *  - by changing number or arguments (or parameters)
  * 
  *  - by changing data type of the parameters
@@ -44,9 +32,22 @@ public class MainOopsConcept {
  * In JAVA method OVERLOADING is not possible by changing the return type of the method - name and 
  * parameters should be different. 
  * 
+ * IQ: Can we overload private, protected, static, default methods? - YES, any method can be overloaded within 1 class
+ * 
+ * 
  * OVERRIDING 
+ *The same method in different classes (Parent-Child)
+ *Without inheritance overriding is not possible 
+ *ADVANTAGES of OVERRIDING 
+ *
+ *CHILD class is allowed to provide its implementation without affecting PARENT class or other subslasses 
+ *
+ *RULES:
+ *Method must have the same name both in parent and child classes
+ *Method must method signature (name and parameters) the same
+ *
  * 
- * 
- */
+ *
+	 */
 
 }
