@@ -46,8 +46,30 @@ public class Polymorphism {
  *Method must have the same name both in parent and child classes
  *Method must method signature (name and parameters) the same
  *
+ * In Method OVERRIDING:
+ * we can override method only when there is inheritance (parent-child classes)
+ * same method name in Parent and Child classes
  * 
+ * ACCESS MODIFIERS 
+ * can not be more restrictive than in parent class(if parent has public, child method also should be public - the biggest)
+ * or if it is protected in parent class, we can't make it default (less), just protected or public
+ * so logic is either same or bigger (more restrictive)
+ * 
+ * PRIVATE Methods can't be overridden since they don't participate in inheritance.
+ * 
+ * RETURN type must be the same 
+ * 
+ * PARAMETERS: if parameters involved, always will be executed parent method (even if child method has different parameters)
  *
+ *IQ: STATIC METHODS can NOT be overridden 
+ *While calling a method using superclasse reference you will get access ONLY to parent class method
+ *This process is named METHOD HIDING
+ *We can have Method hiding but not method overriding 
+ *
+ *Can we OVERRIDE a Constructor (or Special Method)? No 
+ *
+ *IQ: We can't override main method - it is static 
+ *IQ: We can't override final method 
 	 */
 
 }

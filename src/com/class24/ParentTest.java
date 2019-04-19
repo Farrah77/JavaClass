@@ -17,7 +17,7 @@ public class ParentTest {
 		child.work();
 		
 		//type casting 
-		//when we talk about non primitive data: we ut smaller thing into bigger box
+		//when we talk about non primitive data: we зut smaller thing into bigger box
 		
 Parent obj = new Child();//Child is smaller than Parent super class/ Child class is given reference of Parent class
 		
