@@ -18,6 +18,7 @@ public class StudentTest {
 		alist.add(student1);
 		alist.add(student2);
 		alist.add(student3);
+		
 		alist.add(student4);
 		
 		for(Student student: alist) {
